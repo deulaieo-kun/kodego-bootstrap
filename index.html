@@ -49,8 +49,182 @@
         </div>
       </div>
     </nav>
-  </body>
 
-  <!-- Bootstrap JS -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Hero -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="showcase-banner">
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <p class="lead my-4">
+              We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for their first dev role
+            </p>
+            <button
+              class="btn btn-primary btn-large"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Start The Enrollment
+            </button>
+          </div>
+          <img
+            src="img/showcase.svg"
+            alt="showcase"
+            class="img-fluid d-none d-sm-block w-50"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="enroll">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>Enrollment</h5>
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Fill out this form and we will get back to you</p>
+            <form action="">
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label"
+                  >First Name:</label
+                >
+                <input type="text" class="form-control" id="first-name" />
+                <label for="first-name" class="col-form-label"
+                  >Last Name:</label
+                >
+                <input type="text" class="form-control" id="last-name" />
+                <label for="first-name" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="email" />
+                <label for="first-name" class="col-form-label">Phone:</label>
+                <input type="text" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button class="btn btn-primary" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News Letter -->
+    <section class="bg-primary p-5 text-light">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-content-center">
+          <h3 class="text-white">Sign Up For Our Newsletter</h3>
+          <div class="input-group news-input">
+              <input
+                id="enter-email"
+                type="text"
+                class="form-control"
+                placeholder="Enter Email"
+              />
+              <button class="btn btn-dark" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="p-5">
+      <div class="container">
+          <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
+                <h3 class="card-title mb-3">Services</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum ullam nam magni sed.</p>
+                <a href="services.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
+                <h3 class="card-title mb-3">Testimonials</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum ullam nam magni sed.</p>
+                <a href="services.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
+                <h3 class="card-title mb-3">Contact</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum ullam nam magni sed.</p>
+                <a href="services.html" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn the Fundamentals -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <img src="img/fundamentals.svg" alt="fundamentals" class="img-fluid" />
+          </div>
+          <div class="col-md p-5">
+              <h2>Learn the Fundamentals</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate animi? Minus, odio placeat.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo deserunt cupiditate provident eos. Id voluptatum doloribus, distinctio maxime quam a. Nesciunt, voluptatum odio.</p>
+              <a href="#" class="btn btn-light mt-3 text-dark"><i class="bi bi-chevron-right"></i>
+                Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn React -->
+    <section id="learn" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md p-5">
+              <h2 class="text-light">Learn React</h1>
+              <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate animi? Minus, odio placeat.</p>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo deserunt cupiditate provident eos. Id voluptatum doloribus, distinctio maxime quam a. Nesciunt, voluptatum odio.</p>
+              <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>
+                Read More</a>  
+            </div>
+            <div class="col-md">
+              <img src="img/react.svg" alt="fundamentals" class="img-fluid p-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
